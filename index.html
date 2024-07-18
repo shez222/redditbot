@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reddit Bot Control</title>
+</head>
+<body>
+    <h1>Reddit Bot Control</h1>
+    <button id="startButton">Start Bot</button>
+    <script>
+        document.getElementById('startButton').addEventListener('click', () => {
+            window.location.href = '/auth/reddit';
+        });
+    </script>
+</body>
+</html>
